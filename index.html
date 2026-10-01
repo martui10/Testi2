@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Tuijan ensimmäinen verkkosivu</title>
+</head>
+<body>
+<h1>Tervetuloa verkkosivulleni</h1>
+<h2>Minusta</h2>
+<p>
+Olen Tuija ja opiskelen VAMK:ssa Digitalisaation kehittäminen ja johtaminen
+YAMK-koulutuksessa.
+</p>
+<p>
+Työskentelen sovellusasiantuntijana sosiaali- ja terveydenhuollon
+tietojärjestelmien parissa.
+</p>
+<p>
+Tutustu HTML-opiskeluun:
+<a href="https://www.w3schools.com/" target="_blank" rel="noopener noreferrer">
+Visit W3Schools!
+</a>
+</p>
+<h2>Kuva minusta</h2>
+<img
+src="minakuva.jpg"
+alt="Kuva Tuijasta"
+width="300"
+>
+<h2>Kiinnostuksen kohteeni</h2>
+<div class="laatikko">
+<ul>
+<li>Digitalisaatio</li>
+<li>Sovelluskehitys</li>
+<li>Potilastietojärjestelmät</li>
+</ul>
+</div>
+<h2>Koiragalleria</h2>
+<p>
+Paina painiketta, niin sivu hakee satunnaisen koirakuvan
+Dog API -rajapinnasta.
+</p>
+<button onclick="haeKoira()">Hae koirakuva</button>
+<p id="tila"></p>
+<img
+id="koirakuva"
+alt="Rajapinnasta haettu koirakuva"
+width="400"
+hidden
+>
+<script src="script.js"></script>
+</body>
+</html>

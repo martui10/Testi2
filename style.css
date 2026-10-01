@@ -1,0 +1,16 @@
+body {font-family: 'Courier New', Courier, monospace;
+background-color: aquamarine;
+color: blueviolet;
+}
+h1 {color: beige;
+}
+h2 {color: crimson;
+}
+img { border-radius: 10px ;
+}
+.laatikko {
+    border: 2px solid blue;
+    background-color: lightblue;
+    width: 300px;
+    padding: 15px;
+}
